@@ -1,0 +1,78 @@
+body{
+    overflow: hidden;
+}
+.carousel-container{
+    position: relative;
+    margin: auto;
+    width: 700px;
+    border-radius: 15px;
+    left: -425px;
+}
+
+.carousel-container img{
+    display:none;
+    border-radius: none;
+}
+
+.carousel-container img.images-active{
+    display: block;
+    width: 220.4%;
+    height: 530px;
+}
+
+.btn-carousel{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    top: -315px;
+    justify-content: center;
+    height: 0vh;
+    width: 15%;
+    padding: 0;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    font-size: 50px;
+    color: beige;
+}
+
+.btn-prev{
+    left: 0;
+}
+
+.btn-next{
+   
+    float: right;
+    left: 845px;
+
+    
+}
+
+.icon-carousel{
+    color: rgb(159, 197, 23);
+    opacity: 10.5;
+    transition: all 0.15s ease;
+}
+.icon-carousel:hover{
+    opacity: 0.9;
+}
+.icon-carousel:active{
+    opacity: 0.5;
+}
+
+/* not working
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}  
+
+/* not working */

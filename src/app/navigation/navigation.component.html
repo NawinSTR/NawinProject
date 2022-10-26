@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+
+    
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>Nawin</title>
+
+  </head>
+
+  <body>
+   
+    <div class="navigation-bar">
+    
+      <a href="/" > 
+        <img class="logo" src="https://www.kalyanjewellers.net/images/kalyan_logo.svg" height="60" width="150">
+      </a>
+      
+      <form class="example">
+       <input type="text" placeholder="Find good Jewellery for me" name="search"><span><i class="fa fa-search"></i></span>
+      </form>            
+
+       <div class="dropdown" id="drp" >
+            <a>24/7 help <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-content" id="drpcnt">
+
+            <div class="desc"> <a href="#" style="text-decoration: none;">Get help from our experts 24/7 <br> 888-888-xxx</a></div>
+              
+            <div class="desc"> <a routerLink="/contactus" style="text-decoration: none;">Contact Us</a></div>
+
+          </div>
+          
+        </div>     
+
+        <div class="dropdown" id="drp1">
+            <a>login & Signup <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content" id="drpcnt1">
+
+              <div class="desc"> <a routerLink="/login" style="text-decoration: none;">login</a></div>
+                
+              <div class="desc"> <a routerLink="/Signup" (click)="['Signup']" style="text-decoration: none;">Signup</a></div>
+
+            </div>
+        </div>
+        
+
+          <button class="cart" onclick.event routerLink="/cart">  <i class="fa fa-shopping-cart" style="font-size:18px"></i> 
+            Cart
+           <fa-icon style="color:rgb(225, 203, 163);" [icon]="circle"></fa-icon> 
+          </button>
+        
+  
+
+
+    <ul class="dropdown" id="Jewellery" style="list-style: none;">
+
+        <li><a href="#" style="text-decoration: none;color: black;">Shop By Gold Jewellery <i class="fa fa-caret-down"></i></a>
+
+                  <div class="dropdown-content">
+
+                      <ul>
+
+                     
+                        <li class="dropdown-content1">
+
+                          <a href="#" id="desc" style="text-decoration: none;">Necklaces <i class="arrow right"></i></a>
+                          
+                          <div class="dropdown-content-1">
+
+                            <ul  class="neckimg">
+
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/C022804_1.jpeg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c020601_1.jpeg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c020422_1.jpeg"  width="300" height="200"></li>                                                         
+
+                            </ul>
+
+                          </div>
+                          
+                        </li>                                    
+
+                        <li class="dropdown-content2">
+
+                          <a href="#" id="desc" style="text-decoration: none;">Earrings  <i class="arrow right"></i></a>
+                          
+                          <div class="dropdown-content-2">
+
+                            <ul class="earimg">
+
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/LCE0410_1.jpeg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/LCE0416_1.jpeg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c013671_1.jpg"  width="300" height="200"></li>
+
+                            </ul>
+
+                          </div>
+                          
+                        </li>
+
+                        <li class="dropdown-content3">
+
+                          <a href="#" id="desc" style="text-decoration: none;">Rings  <i class="arrow right"></i></a>
+                          
+                          <div class="dropdown-content-3">
+
+                            <ul class="ringimg">
+
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c001316_1.jpg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/gr00255_1.jpg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c013060_1.jpg"  width="300" height="200"></li>
+
+                            </ul>
+
+                          </div>
+                          
+                        </li>
+
+                        <li class="dropdown-content4">
+
+                          <a href="#" id="desc" style="text-decoration: none;">Bangles  <i class="arrow right"></i></a>
+                          
+                          <div class="dropdown-content-4">
+
+                            <ul class="banimg">
+
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c004763_4_1.jpg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c005471_4_1.jpg"  width="300" height="200"></li>&#xA0;&#xA0;
+                              <li><img src="https://d2yx3hwqxay3vo.cloudfront.net/media/jewellery/images/c010299_4.jpg"  width="300" height="200"></li>
+                            </ul>
+
+                          </div>
+
+                        </li>
+                   </ul>
+
+                </div>
+
+        </li> 
+
+    </ul>
+
+
+    <button id="Diamond" disabled>Shop by Diamond Jewellery <i class="fa fa-caret-down"></i></button>  
+           
+    <button id="Shipping" disabled>FREE 1-2 DAY SHIPPING OVER $50&#xA0;&#xA0;<fa-icon style="color:white;" [icon]="truck"></fa-icon></button>
+
+        <!-- <i class='fas fa-truck'></i> this icon is not working -->
+       
+  </div>
+    
+
+  </body>
+
+  </html>
+

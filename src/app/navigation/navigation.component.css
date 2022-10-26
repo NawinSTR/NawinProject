@@ -1,0 +1,278 @@
+
+.navigation-bar{
+    background-color:#ffb3de;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo{
+    position: relative;
+    top: 15px;
+}
+
+form.example input[type=text] {
+    position: relative;
+    left: 217px;
+    top: -23px;
+    width: 562px;
+    height: 38px;
+    border: none;
+    appearance: none;
+    outline: none;    
+  }
+  
+   /* Search icon  */ 
+span{
+    position: relative;
+    left: 190px;
+    top: -23px
+}
+#drp{
+    position: relative;
+    left: 900px;
+    top: -59px;
+    list-style: none;
+    font-size: large;
+}
+#drpcnt{
+    width: 350px;
+    text-align: center;
+}
+#drp1{
+    position: relative;
+    left: 1041px;
+    top: -60px;
+    list-style: none;
+    font-size: large;
+    text-decoration: none;    
+}
+#drpcnt1{
+    width: 150px;
+    text-align: center;
+
+
+}
+.cart{
+    position: relative;
+    left:1164px;
+    top: -60px;
+    width: 125px;
+    border: none;
+    appearance: none;
+    outline: none;
+}
+  
+  /* 24/7 & login dropdown styling  */ 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+ /* Jewellary */
+
+ .dropdown{
+  position: relative;
+  left: -350px; 
+
+ }
+
+ .dropdown-content ul {
+  list-style: none;
+  text-align: left;
+  width: 220px; 
+   
+  }
+
+  #desc {
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+  
+  }
+
+ /* Neckals */
+
+ .neckimg{
+  display: flex;
+  float: left;
+  padding-left: 1em; 
+  padding-right: 1em; 
+  padding-top: 1em; 
+  padding-top: 1em; 
+
+ }
+
+  .dropdown-content-1 {
+    display: none;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    height: 230px;
+    width: 430%;
+    background-color: rgb(120, 243, 116);
+    text-decoration: none;
+    list-style: none;
+
+  }
+  
+  .dropdown-content1:hover .dropdown-content-1 {
+    width: 430%;
+    display: block;
+    position: absolute;
+    left: 220px;
+    top: -1px;
+  }
+
+
+  /* earrings */   
+
+  .earimg{
+    display: flex;
+    float: left;
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-top: 1em; 
+    padding-top: 1em; 
+  
+   }
+
+ .dropdown-content-2 {
+  display: none;
+  position: relative;
+  width: 200px;
+  left: 100px;
+  height: 230px;
+  width: 430%;
+  background-color: rgb(120, 243, 116);
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+.dropdown-content2:hover .dropdown-content-2 {
+  width: 430%;
+  display: block;
+  position: absolute;
+  left: 220px;
+  top: -1px;
+}
+
+  /* Rings */ 
+
+  .ringimg{
+    display: flex;
+    float: left;
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-top: 1em; 
+    padding-top: 1em; 
+  
+   }
+
+  .dropdown-content-3 {
+    display: none;
+    position: relative;
+    width: 200px;
+    left: 100px;
+    height: 230px;
+    width: 430%;
+    background-color: rgb(120, 243, 116);
+    text-decoration: none;
+    list-style: none;
+  
+  }
+  
+  .dropdown-content3:hover .dropdown-content-3 {
+    width: 430%;
+    display: block;
+    position: absolute;
+    left: 220px;
+    top: -1px;
+  }
+
+   /* Bangles */ 
+
+   .banimg{
+    display: flex;
+    float: left;
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-top: 1em; 
+    padding-top: 1em; 
+  
+   }
+
+  .dropdown-content-4 {
+    display: none;
+    position: relative;
+    width: 200px;
+    left: 100px;
+    height: 230px;
+    width: 430%;
+    background-color: rgb(120, 243, 116);
+    text-decoration: none;
+    list-style: none;
+ 
+ }
+ 
+ .dropdown-content4:hover .dropdown-content-4 {
+  width: 430%;
+  display: block;
+  position: absolute;
+  left: 220px;
+  top: -1px;
+ }
+ #Diamond{
+  position: relative;
+  left: -250px;
+  border: none;
+  appearance: none;
+  outline: none;
+  background-color:#ffb3de; 
+ }
+ #Shipping{
+  position: relative;
+  left: 380px;
+  border: none;
+  appearance: none;
+  outline: none;
+  background-color: #ffb3de; 
+ }
+
+
+

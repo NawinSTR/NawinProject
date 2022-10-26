@@ -1,0 +1,55 @@
+<app-navigation></app-navigation>
+
+<body>
+
+    <div class="container">
+    
+    
+     <div class="form-settings"> 
+     
+       <h5>Login with Google</h5><br>
+
+        <button class="google"><fa-icon style="color:green;font-size: 24px;" [icon]="goole"></fa-icon>  Google</button><br><br>
+    
+        <h5>Or Login With Username & Password</h5><br>
+
+        <form [formGroup]="registrationFormGroup" (ngSubmit)="onSubmit()">
+
+            <input  type="text" formControlName="name" placeholder="firstname" >
+
+               <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.name.touched) && registrationFormGroup.
+                controls.name.errors?.['required']">Name is required</span>
+
+           <input  type="text" formControlName="name" placeholder="lastname">
+
+
+            <input  type="text" formControlName="email" placeholder="email">
+                <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.email.touched)  && registrationFormGroup.
+                controls.email.errors?.['required']">Email is required</span>
+                      
+                <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.email.touched)  && registrationFormGroup.
+                controls.email.errors?.['email']">Please enter correct email id</span>
+
+            <input  type="password" formControlName="password" placeholder="password" >
+                <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.password.touched)  && registrationFormGroup.controls.
+                password.errors?.['required']">Password is required</span>
+
+               <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.password.touched)  && registrationFormGroup.controls.
+               password.errors?.['pattern']">Please enter strong password(Should have Uppercase, lowercase, numbers & special characters</span><br><br>
+
+            <button type="submit" class="btn btn-primary">Login</button><p>Already have An account <a  routerLink="/login">login</a></p>
+
+        </form>  
+       
+      
+       
+                                    
+    
+    </div>
+
+  
+
+   </div>
+
+</body>
+

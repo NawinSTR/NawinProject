@@ -1,0 +1,26 @@
+.fa-icon{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    cursor: pointer;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    cursor: pointer;
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    padding-bottom: 20px;
+  }
+ 
+  

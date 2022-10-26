@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #f6fafb;
+    font-family: sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0%;
+  }
+  .container{
+    background-color: #0e5869;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;  
+    margin-top: 30px;
+    text-align: center;
+  }
+  .form{
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .form-settings{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+   
+  }
+  .form-settings input{
+    border-radius: 3px;
+    border: #6de11f;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .google{
+   padding-left: 220px;
+   padding-right: 210px;
+   outline: none;
+   border: none;
+  }
+  p{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  h5{
+    padding-top: 10px;
+    color: #FF69B4;
+  }
+  span{
+    color: red;
+    display: block;
+  }

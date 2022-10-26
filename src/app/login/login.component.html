@@ -1,0 +1,50 @@
+
+
+<app-navigation></app-navigation>
+
+
+
+<body>
+
+    <div class="container">
+    
+    
+     <div class="form-settings"> 
+     
+       <h5>Login with Google</h5><br>
+
+        <button class="google"><fa-icon style="color:green;font-size: 24px;" [icon]="goole"></fa-icon>  Google</button><br>
+    
+        <h5>Or Login With Username & Password</h5><br>
+
+        <form [formGroup]="registrationFormGroup" (ngSubmit)="onSubmit()">
+
+            <input  type="text" formControlName="name" placeholder="name"  >
+
+            <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.name.touched) && registrationFormGroup.
+                      controls.name.errors?.['required']">Name is required</span>
+
+            <input  type="password" formControlName="password" placeholder="password" >
+
+            <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.password.touched)  && registrationFormGroup.controls.
+            password.errors?.['required']">Password is required</span>
+
+            <span class="validation-error" *ngIf="(formSubmitted || registrationFormGroup.controls.password.touched)  && registrationFormGroup.controls.
+            password.errors?.['pattern']">Please enter strong password(Should have Uppercase, lowercase, numbers & special characters</span><br><br>
+
+            <button type="submit" class="btn btn-primary">Login</button><br>
+
+        </form>  
+       
+      
+        <p routerLink="/">Forget password ?</p>
+                                    
+    
+    </div>
+
+  
+
+   </div>
+
+</body>
+
